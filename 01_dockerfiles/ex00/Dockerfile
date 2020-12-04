@@ -5,3 +5,5 @@ RUN apk update
 RUN apk add vim
 
 CMD ["vim"]
+
+# docker build -t --rm ex00 .
