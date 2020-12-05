@@ -1,4 +1,4 @@
-sudo docker run -it --name Abathur -p 3000:3000 -v ~/:/root python:2-slim
+docker run -it --name Abathur -p 3000:3000 -v ~/:/root python:2-slim
 
 import pip
 pip.main(['install', 'flask'])

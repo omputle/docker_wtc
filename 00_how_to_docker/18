@@ -1,1 +1,1 @@
-sudo docker container restart overlord
+docker container restart overlord

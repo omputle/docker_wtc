@@ -1,1 +1,1 @@
-sudo docker container ls
+docker container ls
