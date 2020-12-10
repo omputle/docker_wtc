@@ -18,6 +18,6 @@ ONBUILD RUN bundle update --bundler
 
 ONBUILD RUN bundle install --without production
 
-ONBUILD RUN bundle exec rake db:migrate
+ONBUILD RUN bundle exec rails db:migrate
 
-ONBUILD RUN bundle exec rake db:seed
+ONBUILD RUN bundle exec rails db:seed
